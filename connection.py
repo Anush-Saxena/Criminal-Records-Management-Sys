@@ -357,6 +357,7 @@ def mw():
                                         break
                               if j4==0:
                                    messagebox.showinfo(""," Criminal Record Does Not Exists ")
+                              j4=0
                          else:
                               messagebox.showerror("","  ERROR! Please Check Connection  ")
           def co42():
@@ -415,6 +416,7 @@ def mw():
                                    break
                          if j5==0:
                               messagebox.showerror(""," Criminal Number Does Not Exists ")
+                         j5=0
                     else:
                          messagebox.showerror("","  ERROR! Please Check Connection  ")
                else:
